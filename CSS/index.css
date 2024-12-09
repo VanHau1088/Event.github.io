@@ -43,7 +43,7 @@ span#eventName {
   text-align: center;
 }
 
-.image {
+img.image{
   position: absolute;
   width: 100px;
   top: -33px;
