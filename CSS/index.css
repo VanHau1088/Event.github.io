@@ -43,12 +43,18 @@ span#eventName {
   text-align: center;
 }
 
-
+img {
+  position: absolute;
+  width: 100px;
+  top: -33px;
+  left: 55px;
+  border-radius: 15px;
+}
 
 .name {
   position: absolute;
-  top: 74px;
-  left: 80px;
+  top: 75px;
+  left: 87px;
   text-align: center;
 }
 
