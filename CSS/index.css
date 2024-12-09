@@ -94,13 +94,7 @@ p.ContactName {
   flex-direction: column;
 }
 
-p.phone {
-  display: flex;
-  flex-direction: column;
-}
-
-
-p.phoneNumber {
+p.PhoneNumber {
   display: flex;
   flex-direction: column;
 }

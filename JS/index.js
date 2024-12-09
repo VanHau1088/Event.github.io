@@ -33,25 +33,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
   if (about) {
     document.getElementById('about').textContent = about;
   }
-
-
   if (address) {
     document.getElementById('address').textContent = address;
   }
-
   if (contactName) {
     document.getElementById('contactName').textContent = contactName;
   }
-
   if (phoneNumber) {
     document.getElementById('phoneNumber').textContent = phoneNumber;
   }
-
-
   if (email) {
     document.getElementById('email').textContent = email;
   }
-
   if (website) {
     document.getElementById('website').textContent = website;
   }
