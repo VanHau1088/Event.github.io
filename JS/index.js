@@ -1,40 +1,58 @@
 document.addEventListener('DOMContentLoaded', (event) => {
   const queryParams = new URLSearchParams(window.location.search);
-  const fullName = queryParams.get('fullName');
-  const phoneNumber = queryParams.get('phoneNumber');
-  const email = queryParams.get('email');
-  const address = queryParams.get('address');
-  const profileImage = queryParams.get('profileImage');
-  const website = queryParams.get('website');
-  const job = queryParams.get('job');
+  const title = queryParams.get('title');
+  const eventName = queryParams.get('eventName');
+  const startDate = queryParams.get('startDate');
 
-  if (fullName) {
-    document.getElementById('fullName').textContent = fullName;
+  const endDate = queryParams.get('endDate');
+
+  const about = queryParams.get('about');
+
+  const address = queryParams.get('address');
+
+  const contactName = queryParams.get('contactName');
+
+  const phoneNumber = queryParams.get('phoneNumber');
+
+  const email = queryParams.get('email');
+
+  const website = queryParams.get('website');
+
+  if (title) {
+    document.getElementById('title').textContent = title;
+  }
+  if (eventName) {
+    document.getElementById('eventName').textContent = eventName;
+  }
+  if (startDate) {
+    document.getElementById('startDate').textContent = startDate;
+  }
+  if (endDate) {
+    document.getElementById('endDate').textContent = endDate;
+  }
+  if (about) {
+    document.getElementById('about').textContent = about;
+  }
+
+
+  if (address) {
+    document.getElementById('address').textContent = address;
+  }
+
+  if (contactName) {
+    document.getElementById('contactName').textContent = contactName;
   }
 
   if (phoneNumber) {
     document.getElementById('phoneNumber').textContent = phoneNumber;
   }
 
+
   if (email) {
     document.getElementById('email').textContent = email;
   }
 
-  if (address) {
-    document.getElementById('address').textContent = address;
-  }
-
-  if (profileImage) {
-    const imageElement = document.getElementById('profileImage');
-    imageElement.src = profileImage;
-    imageElement.style.display = 'block';
-  }
-
   if (website) {
     document.getElementById('website').textContent = website;
-  }
-
-  if (job) {
-    document.getElementById('job').textContent = job;
   }
 });
